@@ -3,5 +3,5 @@ using System.Collections;
 
 public class ButtonInfo : MonoBehaviour
 {
-    public CircuitsData.CircuitPartTypes partType;
+    public Data.CircuitPartTypes partType;
 }

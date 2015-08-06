@@ -10,6 +10,5 @@ public class Defines : MonoBehaviour
     [Space(12)]
 
     //Circuit part prefabs
-    public GameObject redCube_PartPrefab;
-    public GameObject wire_Prefab;
+	public GameObject bulletPrefab;
 }

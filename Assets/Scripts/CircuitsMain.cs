@@ -1,18 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class CircuitsMain : MonoBehaviour
 {
+	public static void CircuitsStart()
+	{
 
-    // Use this for initialization
-    void Start()
-    {
+	}
 
-    }
+	public static void CircuitsUpdate()
+	{
+		foreach (KeyValuePair<int, Data.Circuit> KvP in Data.circuits) 
+		{
+			CircuitFuncs.UpdateCircuit(KvP.Value);
+		}
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+	}
 }
